@@ -9,3 +9,6 @@ Instructions:
 3. When ready to annotate, drag over the artboard to select all the layers. 
 4. Hit Shift+Command+Q, and then annotations will be numbered correctly.
 
+Future Updates:
+* Make it so Annotations can be named the same thing
+* Auto-select all layers on active artboard instead of manually selecting layers
