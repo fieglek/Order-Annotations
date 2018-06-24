@@ -13,11 +13,6 @@ var Artboard = require('sketch/dom').Artboard
 var onRun = function(context) {
   var document = sketch.getSelectedDocument()
   var page = document.selectedPage
-
-  var Group = sketch.Group
-  var Shape = sketch.Shape
-  var SymbolInstance = sketch.SymbolInstance
-  var SymbolMaster = sketch.SymbolMaster
   var selection = document.selectedLayers
 
   var annotationList = []
@@ -51,10 +46,3 @@ var onRun = function(context) {
 
   sketch.UI.message('It worked!')
 }
-
-//things that work:
-// log(selection.layers.length)
-//   selection.layers.forEach(function(item) {
-  // selection.layers[i].name
-  // selection.layers[i].frame.y
-// })
