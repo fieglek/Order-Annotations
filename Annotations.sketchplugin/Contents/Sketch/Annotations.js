@@ -31,10 +31,7 @@ var onRun = function(context) {
       }
       annotationList.push(annotationInstance)
     }
-    log(selection.layers[i])
-    log(selection.layers[i].id)
   }
-  log(annotationList)
 
   //Sort array and reorder based on y value
   annotationList.sort(function(a,b){
