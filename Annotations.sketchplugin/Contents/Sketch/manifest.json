@@ -4,7 +4,7 @@
   {
     "script" : "Annotations.js",
     "handler" : "onRun",
-    "shortcut" : "command shift q",
+    "shortcut" : "command shift m",
     "name" : "Number Annotations",
     "identifier" : "annotations.plugin.pagenames"
   }
