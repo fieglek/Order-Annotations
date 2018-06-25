@@ -2,7 +2,6 @@ const sketch = require('sketch')
 var document = require('sketch/dom').Document
 var SymbolInstance = require('sketch/dom').SymbolInstance
 var UI = require('sketch/ui')
-var sketch = require('sketch/dom')
 var async = require('sketch/async')
 var DataSupplier = require('sketch/data-supplier')
 var Settings = require('sketch/settings')
