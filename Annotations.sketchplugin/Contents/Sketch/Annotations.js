@@ -43,5 +43,5 @@ var onRun = function(context) {
   })
 
 
-  sketch.UI.message('It worked!!')
+  sketch.UI.message('It worked!')
 }

@@ -14,7 +14,6 @@ var onRun = function(context) {
 
   var sidebarList = []
 
-  console.log("NEW RUN");
   //make an array of selected layers with properties of name and y value
   for(var i=0; i<selection.layers.length; i++){
     var sidebarInstance = {
@@ -28,11 +27,8 @@ var onRun = function(context) {
   sidebarList.sort(function(a,b){
     return a.y - b.y
   })
-  console.log("sorted sidebarList:")
-  console.log(sidebarList);
 
   //change first value in string text to match Y axis order
-    //cycle through sidebar list and if current iteration of array ==
   sidebarList.forEach(function(j,k){
     for (var i = 0; i < selection.layers.length; i++) {
 
@@ -49,5 +45,5 @@ var onRun = function(context) {
   })
 
 
-  sketch.UI.message('It worked!!1')
+  sketch.UI.message('It worked!')
 }
