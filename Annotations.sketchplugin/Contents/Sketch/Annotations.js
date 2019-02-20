@@ -15,7 +15,7 @@ var onRun = function(context) {
   var selection = document.selectedLayers
 
   var annotationList = []
-  
+
   //Get all selected layers that are named Annotation and add to array
   for(var i = 0; i < selection.layers.length; i++){
     if(selection.layers[i].name.indexOf("Annotation") > -1){
@@ -41,7 +41,7 @@ var onRun = function(context) {
     }
 
   })
- 
 
-  sketch.UI.message('It worked!')
+
+  sketch.UI.message('It worked!!')
 }

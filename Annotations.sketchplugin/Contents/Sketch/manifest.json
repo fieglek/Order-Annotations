@@ -6,12 +6,19 @@
     "handler" : "onRun",
     "shortcut" : "command shift m",
     "name" : "Number Annotations",
-    "identifier" : "annotations.plugin.pagenames"
+    "identifier" : "annotations.plugin.pagenames",
+  },
+  {
+    "script" : "Sidebar.js",
+    "handler" : "onRun",
+    "shortcut" : "command shift ,",
+    "name" : "Number Sidebar",
   }
+
   ],
   "name" : "Order Annotations",
   "identifier" : "annotations.plugin",
-  "version" : "1.0",
+  "version" : "1.2",
   "description" : "To make ordered annotations",
   "author" : "kelsey fiegle"
 }
