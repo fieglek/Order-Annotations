@@ -21,7 +21,7 @@ var onRun = function(context) {
     if(selection.layers[i].name.indexOf("Annotation") > -1){
       var annotationInstance = {
         name: selection.layers[i].name,
-        y:  selection.layers[i].frame.y,
+        y: selection.layers[i].frame.y,
       }
       annotationList.push(annotationInstance)
     }
@@ -39,9 +39,6 @@ var onRun = function(context) {
         selection.layers[i].setOverrideValue(selection.layers[i].overrides[0], k+1)
       }
     }
-
   })
-
-
   sketch.UI.message('It worked!')
 }

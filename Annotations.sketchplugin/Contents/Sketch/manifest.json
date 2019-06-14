@@ -18,7 +18,7 @@
   ],
   "name" : "Order Annotations",
   "identifier" : "annotations.plugin",
-  "version" : "1.2",
+  "version" : "1.3",
   "description" : "To make ordered annotations",
   "author" : "kelsey fiegle"
 }
