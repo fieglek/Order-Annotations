@@ -1,5 +1,6 @@
+const sketch = require('sketch')
+
 function onRun(context) {
-  var sketch = context.api();
   var selection = context.selection;
   var doc = context.document;
 
